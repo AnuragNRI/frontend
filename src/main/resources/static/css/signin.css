@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding :0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.top{
+	 display:flex;
+	justify-content: space-around;
+	align-content: center; 
+	position:relative;
+}
+
+.hero{
+	position:relative;
+	top:150px;
+	display:flex;
+	flex-direction:row;
+	/* align-items: center ;
+	justify-content: space-around; */
+	padding:100px;
+	background: #FFFFFF;
+	margin:50px;
+	/* margin-top:150px; */
+	align-items: center;
+	/* border:2px solid red; */
+}
+
+.left{
+	flex: 50;
+	margin-right : 100px;
+}
+
+.rigth{
+	flex: 50;
+}
+
+form{
+	display:flex;
+	flex-direction : column;
+	
+}
+
+input{
+	
+	background: rgba(115, 113, 252, 0.1);
+	border-radius: 15px;
+	border:none;
+	padding: 20px;
+	margin:20px;
+	width:500px;
+}
+
+button{
+	padding:20px;
+	margin:20px;
+	background: #2193b0;
+	border-radius: 15px;
+	border:none;
+	color:white;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
+h1{
+	font-size:50px;
+}
+
+.title{
+	color:#2193b0;
+	margin-bottom:25px;
+}
+.welcome{
+	margin-bottom:25px;
+}
+
+.newuserlink{
+	color: #2193b0;
+}
+
+.newuser{
+	margin-left:30px;
+}
+
+.slider{
+	position:absolute;
+	top:0;
+	left:0;
+	width:50%;
+	height:100vh;
+	background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	opacity:1;
+	z-index:-1;
+}
+
+
+
